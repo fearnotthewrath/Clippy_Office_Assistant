@@ -191,7 +191,7 @@ moderators](http://www.reddit.com/message/compose?to=%2Fr%2Fexcel)!
 WELCOME_SUBJECT = """Welcome to /r/Excel, I am here to help!"""
 
 WELCOME_MESSAGE = """
-Hi %s!
+Hi!
 It looks like you are new to posting in /r/Excel.
 
 Firstly, please make sure you change your flair to "solved" as 
@@ -203,6 +203,8 @@ How can I help you?
 [How to Share Your Questions](/r/excel/wiki/sharingquestions)
 [Changing Link Flair](/r/excel/wiki/flair)
 [ClippyPoints^TM](/r/excel/wiki/clippy)
+
+
 ^This ^message ^is ^auto-generated ^and ^is ^not ^monitored ^on ^a
 ^regular ^basis, ^replies ^to ^this ^message ^may ^not ^go ^answered.
 ^Remember ^to [^contact ^the
