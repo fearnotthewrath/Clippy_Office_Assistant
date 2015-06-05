@@ -23,7 +23,7 @@ SUBREDDIT = "excel"
 # This is the sub or list of subs to scan for new posts.
 # For a single sub, use "sub1".
 # For multiple subreddits, use "sub1+sub2+sub3+..."
-PLAY_BOOT_SOUND = True
+PLAY_BOOT_SOUND = False
 #Play boot.wav
 
 MAXPOSTS = 100
