@@ -564,7 +564,7 @@ class ClippyWelcome:
 					print('\t\tFound new user: ' + pauthor)
 					print('\t\tSending message...', end="")
 					sys.stdout.flush()
-					#r.send_message(pauthor, WELCOME_SUBJECT, WELCOME_MESSAGE%pauthor, captcha=None)
+					r.send_message(pauthor, WELCOME_SUBJECT, WELCOME_MESSAGE%pauthor, captcha=None)
 					cur.execute('INSERT INTO clippy_welcome VALUES(?, ?)', (pauthor, pid))
 					print('done.')
 				sql.commit()
